@@ -18,7 +18,8 @@
    
     <h2>
         <?php
-            // date and time now
+            // date and time now in the Netherlands
+            date_default_timezone_set('Europe/Amsterdam');
             $date = date('d-m-Y H:i:s');
             echo $date;
         ?>
